@@ -8,14 +8,18 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #A27035;
-    height: calc(100vh - 40px);
+    height: 97vh;
 }
 
 .quote-container {
     width: 95%;
-    height: calc(100vh - 100px);
+    height: 90%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    border: black 1px solid;
+    
 }
 
 .quotes{
@@ -26,16 +30,40 @@ body{
     align-items: center;
     margin: auto;
     height: 70%;
-    width: 50%;
+    width: 70%;
     background-color: #ddca7d;
     color: #A27035;
     font-size: 1.7rem;
 }
 
+.button-container{
+    display:flex;
+    justify-content: center;
+}
+
+.button{
+    border: black 1px solid;
+    padding: 10px;
+    background-color: #ddca7d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.button:hover{
+    background-color: #B88B4A;
+}
+
+.button:active{
+    background-color: lightgrey;
+}
+
 /* devguicordeiro footer */
 
 .devguicordeirofooter {
-    height: 40px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -43,6 +71,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    height: 3vh;
     width: 100%;
     font-size: 20px;
     border: black 1px solid;
