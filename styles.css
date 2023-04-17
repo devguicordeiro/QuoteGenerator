@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: auto;
     border: black 1px solid;
     
@@ -60,8 +61,6 @@ body{
 .button:active{
     background-color: lightgrey;
 }
-
-/* devguicordeiro footer */
 
 .devguicordeirofooter {
     position: absolute;
