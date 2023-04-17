@@ -1,17 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 *{
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #f3b059;
+    padding: 0;
+    margin: 0;
 }
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #A27035;
+    height: calc(100vh - 40px);
+}
 
+.quote-container {
+    width: 95%;
+    height: calc(100vh - 100px);
+    display: flex;
+    margin: auto;
+}
 
-
+.quotes{
+    border: #B88B4A 14px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 70%;
+    width: 50%;
+    background-color: #ddca7d;
+    color: #A27035;
+    font-size: 1.7rem;
+}
 
 /* devguicordeiro footer */
 
 .devguicordeirofooter {
+    height: 40px;
     position: absolute;
     bottom: 0;
     left: 0;
